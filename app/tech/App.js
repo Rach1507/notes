@@ -1,12 +1,6 @@
-import "./App.css";
-import BlogOverview from "./components/BlogOverview";
-import AOS from "aos"; 
-import { useEffect } from "react";
-function App() {
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+import BlogOverview from "./components/BlogOverview";
+function App() {
 
   return (
     <div className="App">
